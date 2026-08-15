@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066FF"/>
+      <stop offset="100%" style="stop-color:#00D4AA"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#logoGradient)"/>
+  
+  <!-- Ears -->
+  <ellipse cx="45" cy="45" rx="25" ry="30" fill="url(#logoGradient)" opacity="0.8"/>
+  <ellipse cx="155" cy="45" rx="25" ry="30" fill="url(#logoGradient)" opacity="0.8"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="100" r="80" fill="url(#logoGradient)"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="70" cy="85" rx="18" ry="22" fill="white"/>
+  <ellipse cx="130" cy="85" rx="18" ry="22" fill="white"/>
+  
+  <!-- Pupils -->
+  <circle cx="70" cy="85" r="9" fill="#1A1A2E"/>
+  <circle cx="130" cy="85" r="9" fill="#1A1A2E"/>
+  
+  <!-- Eye shine -->
+  <circle cx="73" cy="82" r="3" fill="white"/>
+  <circle cx="133" cy="82" r="3" fill="white"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="115" rx="12" ry="8" fill="#FF6B6B"/>
+  
+  <!-- Mouth -->
+  <path d="M75 135 Q100 160 125 135" stroke="white" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cheeks -->
+  <circle cx="45" cy="110" r="12" fill="#FF8585" opacity="0.5"/>
+  <circle cx="155" cy="110" r="12" fill="#FF8585" opacity="0.5"/>
+  
+  <!-- Text -->
+  <text x="100" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Ka CmWY</text>
+</svg>
